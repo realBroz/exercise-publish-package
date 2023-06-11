@@ -1,3 +1,28 @@
 {
-  "your": "json config here"
+	"name": "example-name",
+	"version": "1.0.0",
+	"license": "MIT",
+	"description": "An example NodeJS project",
+	"keywords": ["example", "learning", "kb"],
+	"author": "MK",
+	"contributors": [{
+		"name": "Kabir",
+		"email": "mk@example.com"
+	}],
+	"main": "app.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/realBroz/exercise-publish-package"
+	},
+	"scripts": {
+		"start": "node index.js",
+		"dev": "nodemon"
+	},
+	"dependencies": {
+		"express": "^4.1.4",
+		"compression": "~1.3.2"
+	},
+	"devDependencies": {
+		"nodemon": "^1.18.10"
+	}
 }
